@@ -94,7 +94,7 @@ namespace MusicLibraryWebAPI.Controllers
             _context.SaveChanges();
 
 
-            return NoContent();
+            return NotFound();
         
         }
 
